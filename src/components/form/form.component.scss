@@ -1,0 +1,39 @@
+.FormComponent {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  flex-direction: column;
+  width: 100%;
+
+  &__random {
+    border: 1px solid rgb(7, 47, 74);
+
+    background-color: rgb(52, 122, 167);
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h4 {
+      background-color: rgb(7, 47, 74);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-size: 1.3rem;
+      padding: 0.3rem 0.5rem;
+    }
+
+    & ul {
+      & li {
+        padding: 0.3rem 1rem;
+        font-size: 1.2rem;
+        transition: background-color 300ms;
+        border-radius: 0.3rem;
+      }
+      & li:hover {
+        background-color: rgb(126, 174, 205);
+      }
+    }
+  }
+}

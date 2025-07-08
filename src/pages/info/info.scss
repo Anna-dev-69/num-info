@@ -1,0 +1,28 @@
+.Info {
+  width: 700px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+
+  &__radioNumber {
+    font-size: 2rem;
+  }
+
+  &__number {
+    font-size: 1.5rem;
+    background-color: rgb(8, 50, 76);
+    color: rgb(238, 241, 243);
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__info {
+    font-size: 1.7rem;
+  }
+}
